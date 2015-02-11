@@ -18,3 +18,6 @@ Added Github Update Capabilities
 v1.0.5
 Added chanelog.md (this file)
 -----------------------
+1.0.10
+Changed Versioning System (and testing)
+-----------------------
