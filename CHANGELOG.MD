@@ -1,6 +1,7 @@
 Changelog for CHP-Child
 -----------------------
 v1.0.0
+-----------------------
 Made style.css and created child theme
 -----------------------
 v1.0.1
