@@ -27,3 +27,6 @@ Added styling for Services Tiles
 1.0.12
 Changed Services Tiles Styling
 -----------------------
+1.0.13
+Changed Services Tiles Styling
+-----------------------
