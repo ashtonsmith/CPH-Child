@@ -24,3 +24,6 @@ Changed Versioning System (and testing)
 1.0.11
 Added styling for Services Tiles
 -----------------------
+1.0.12
+Changed Services Tiles Styling
+-----------------------

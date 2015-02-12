@@ -5,7 +5,7 @@
  Author:         Ashton Smith
  Author URI:     http://www.pinnacleservices.co
  Template:       industrix
- Version:        1.0.11
+ Version:        1.0.12
 */
  
  
@@ -722,19 +722,19 @@ a.list-group-item.active:focus {
 }
 
 .showcase-right ul.top-service-box li:nth-child(1) {
-    background : #afcea2;
+    background : #f00000;
 }
 
 .showcase-right ul.top-service-box li:nth-child(2) {
-    background : #e4d082;
+    background : #0f0f0f;
 }
 
 .showcase-right ul.top-service-box li:nth-child(3) {
-    background : #d17383;
+    background : #0f0f0f;
 }
 
 .showcase-right ul.top-service-box li:nth-child(4) {
-    background : #798790;
+    background : #f00000;
 }
 
 .showcase-right ul.top-service-box li a {
@@ -775,30 +775,30 @@ a.list-group-item.active:focus {
 
 .showcase-right ul.top-service-box li:hover:nth-child(1) {
     z-index            : 999;
-    -webkit-box-shadow : 0 0 0 12px #f00000;
-    -moz-box-shadow    : 0 0 0 12px #f00000;
-    box-shadow         : 0 0 0 12px #f00000;
+    -webkit-box-shadow : 0 0 0 12px #afcea2;
+    -moz-box-shadow    : 0 0 0 12px #afcea2;
+    box-shadow         : 0 0 0 12px #afcea2;
 }
 
 .showcase-right ul.top-service-box li:hover:nth-child(2) {
     z-index            : 999;
-    -webkit-box-shadow : 0 0 0 12px #0f0f0f;
-    -moz-box-shadow    : 0 0 0 12px #0f0f0f;
-    box-shadow         : 0 0 0 12px #0f0f0f;
+    -webkit-box-shadow : 0 0 0 12px #e4d082;
+    -moz-box-shadow    : 0 0 0 12px #e4d082;
+    box-shadow         : 0 0 0 12px #e4d082;
 }
 
 .showcase-right ul.top-service-box li:hover:nth-child(3) {
     z-index            : 999;
-    -webkit-box-shadow : 0 0 0 12px #0f0f0f;
-    -moz-box-shadow    : 0 0 0 12px #0f0f0f;
-    box-shadow         : 0 0 0 12px #0f0f0f;
+    -webkit-box-shadow : 0 0 0 12px #d17383;
+    -moz-box-shadow    : 0 0 0 12px #d17383;
+    box-shadow         : 0 0 0 12px #d17383;
 }
 
 .showcase-right ul.top-service-box li:hover:nth-child(4) {
     z-index            : 999;
-    -webkit-box-shadow : 0 0 0 12px #f00000;
-    -moz-box-shadow    : 0 0 0 12px #f00000;
-    box-shadow         : 0 0 0 12px #f00000;
+    -webkit-box-shadow : 0 0 0 12px #798790;
+    -moz-box-shadow    : 0 0 0 12px #798790;
+    box-shadow         : 0 0 0 12px #798790;
 }
 
 .showcase-right ul.top-service-box li h2 {
