@@ -30,3 +30,6 @@ Changed Services Tiles Styling
 1.0.13
 Changed Services Tiles Styling
 -----------------------
+1.0.14
+Added footer.php and customized the footer text and copyright info.
+-----------------------
