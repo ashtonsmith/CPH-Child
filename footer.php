@@ -26,7 +26,7 @@
                                         __('Compact Plant Hire'),
                                         esc_url('http://www.pinnacleservices.co'),
                                         'Visit The Designer!',
-                                        'pinnacleservices.co'); ?>
+                                        'Pinnacle Services'); ?>
                                     <br>
                                     
                                 </p>
