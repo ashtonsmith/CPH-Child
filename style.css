@@ -5,7 +5,7 @@
  Author:         Ashton Smith
  Author URI:     http://www.pinnacleservices.co
  Template:       industrix
- Version:        1.0.10
+ Version:        1.0.11
 */
  
  
@@ -670,4 +670,153 @@ a.list-group-item.active:focus {
 
 .search-title-wrapper {
     margin-bottom : 10px;
+}
+
+/* Revoslider Tiles (services) styling */
+/* ==========================================================================
+     Service style
+   ========================================================================== */
+
+.showcase {
+    padding : 0 15px;
+}
+
+.showcase > div {
+    background : #262626;
+}
+
+.showcase > div > div {
+    padding : 0;
+}
+
+.showcase-right {
+    margin-bottom : -5px;
+}
+
+.showcase-right ul.top-service-box {
+    display    : inline-block;
+    margin     : 0;
+    padding    : 5px;
+    background : #2d2d2d;
+    list-style : none;
+
+}
+
+.showcase-right ul.top-service-box li {
+    position           : relative;
+    float              : left;
+    -webkit-box-sizing : border-box;
+    -moz-box-sizing    : border-box;
+    box-sizing         : border-box;
+    margin             : 5px;
+    -webkit-transition : all 0.3s;
+    -moz-transition    : all 0.3s;
+    -ms-transition     : all 0.3s;
+    -o-transition      : all 0.3s;
+    transition         : all 0.3s;
+    -webkit-transform  : translateZ(0);
+    -moz-transform     : translateZ(0);
+    -ms-transform      : translateZ(0);
+    -o-transform       : translateZ(0);
+    transform          : translateZ(0);
+}
+
+.showcase-right ul.top-service-box li:nth-child(1) {
+    background : #afcea2;
+}
+
+.showcase-right ul.top-service-box li:nth-child(2) {
+    background : #e4d082;
+}
+
+.showcase-right ul.top-service-box li:nth-child(3) {
+    background : #d17383;
+}
+
+.showcase-right ul.top-service-box li:nth-child(4) {
+    background : #798790;
+}
+
+.showcase-right ul.top-service-box li a {
+    position           : absolute;
+    bottom             : 10px;
+    left               : 60px;
+    padding            : 5px 10px;
+    background         : rgba(0, 0, 0, 0.3);
+    color              : #fff;
+    text-transform     : uppercase;
+    letter-spacing     : .5px;
+    font-size          : 12px;
+    opacity            : 0;
+    -ms-filter         : alpha(opacity=0);
+    filter             : alpha(opacity=0);
+    -webkit-transition : all 0.3s;
+    -moz-transition    : all 0.3s;
+    -ms-transition     : all 0.3s;
+    -o-transition      : all 0.3s;
+    transition         : all 0.3s;
+}
+
+.showcase-right ul.top-service-box li a:hover {
+    background      : #fff;
+    color           : #333;
+    text-decoration : none;
+}
+
+.showcase-right ul.top-service-box li:hover {
+
+}
+
+.showcase-right ul.top-service-box li:hover a {
+    left    : 20px;
+    opacity : 1;
+    filter  : alpha(opacity=100);
+}
+
+.showcase-right ul.top-service-box li:hover:nth-child(1) {
+    z-index            : 999;
+    -webkit-box-shadow : 0 0 0 12px #f00000;
+    -moz-box-shadow    : 0 0 0 12px #f00000;
+    box-shadow         : 0 0 0 12px #f00000;
+}
+
+.showcase-right ul.top-service-box li:hover:nth-child(2) {
+    z-index            : 999;
+    -webkit-box-shadow : 0 0 0 12px #0f0f0f;
+    -moz-box-shadow    : 0 0 0 12px #0f0f0f;
+    box-shadow         : 0 0 0 12px #0f0f0f;
+}
+
+.showcase-right ul.top-service-box li:hover:nth-child(3) {
+    z-index            : 999;
+    -webkit-box-shadow : 0 0 0 12px #0f0f0f;
+    -moz-box-shadow    : 0 0 0 12px #0f0f0f;
+    box-shadow         : 0 0 0 12px #0f0f0f;
+}
+
+.showcase-right ul.top-service-box li:hover:nth-child(4) {
+    z-index            : 999;
+    -webkit-box-shadow : 0 0 0 12px #f00000;
+    -moz-box-shadow    : 0 0 0 12px #f00000;
+    box-shadow         : 0 0 0 12px #f00000;
+}
+
+.showcase-right ul.top-service-box li h2 {
+    margin         : 0 0 10px;
+    color          : rgba(255, 255, 255, 0.7);
+    letter-spacing : 1px;
+    font-size      : 24px;
+}
+
+.showcase-right ul.top-service-box li p {
+    color          : #fff;
+    text-transform : uppercase;
+    font-weight    : 400;
+    font-size      : 14px;
+}
+
+/*service details */
+
+.service-details-wrapper .single-service {
+    padding : 20px;
 }

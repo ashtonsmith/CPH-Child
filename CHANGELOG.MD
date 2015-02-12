@@ -21,3 +21,6 @@ Added chanelog.md (this file)
 1.0.10
 Changed Versioning System (and testing)
 -----------------------
+1.0.11
+Added styling for Services Tiles
+-----------------------
