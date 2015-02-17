@@ -60,4 +60,6 @@ Added footer.php and customized the footer text and copyright info.
 -----------------------
 Modified Footer Text, and changed Services Tiles border colors
 
-
+1.0.16
+-----------------------
+Updated Screenshot Image
